@@ -95,13 +95,13 @@ app.use('/users', userRouters);
 
 app.use(function (req, res, next) {
   if (res.statusCode == '200') {
-    res.render('notfound', {
+    res.render('notFound', {
       layout: 'layouts/main'
     });
   }
 });
 
-app.set('json spaces', 4);
+app.set('json spaces', 2);
 
 app.listen(PORT, () => {
   console.log(`App listening at http://localhost:${PORT}`);
