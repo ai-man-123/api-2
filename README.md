@@ -1,6 +1,6 @@
 # **Node JS Rest-API**
 
-<img src="https://i.postimg.cc/KjqrWcc2/zekais-api.png" width="500">
+<img src="https://i.postimg.cc/V6SbvzZw/Screenshot-9.png" width="500">
 
 Simple Rest-API With Login System, Built using MongoDB, Express.js, and Node.js
 
@@ -137,7 +137,7 @@ Open `CMD` and Login Heroku
 Initialize a git repository in a new or existing directory
 
 ```cmd
-> cd nodejs-restapi
+> cd api-2
 > git init
 ```
 
